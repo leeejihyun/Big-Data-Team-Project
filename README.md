@@ -1,12 +1,39 @@
 # Big-Data-Team-Project
 > 범죄발생 요인 분석과 활용
 
--	환경 범죄학을 참고하여 범죄요인(게임업 수, 유흥업 수, 초등학교 수, 노래방 수, 비디오방 수, 경찰서 수, 주류판매 음식점 수, 중장년층 인구 비율, 노년층 인구 비율, CCTV 수)를 임의로 선정
--	범죄요인 각각을 Excel과 R을 이용하여 서울시 구별로 데이터 가공
--	R로 범죄요인들과 범죄와의 상관관계분석을 통해 범죄와 상관이 있는 변수들을 알아보고, 그 변수들에 대해 유의미한 변수만 골라내어 다중선형회귀분석을 진행하여 인과관계 파악
--	R로 K-means++알고리즘을 이용한 군집화(Clustering)를 통해 범죄 발생 수가 많은 군집과 적은 군집을 나누어 회귀분석으론 알 수 없었던 세부적인 군집에 대한 특성 파악
--	최종적으로 범죄가 자주 일어난 지역에서 분석된 범죄요인인 게임업, 유흥업, 주류판매 음식점이 많은 장소를 “범죄위험지역”으로 분류하여 더 많은 순찰을 할 수 있도록 관서에 제안 및 해당 지역에 CCTV 수를 늘려 범죄의 사전, 사후 예방책 마련
--	Tableau를 이용해 서울시 구별 범죄요인 및 5대 범죄(살인, 강도, 강간, 절도, 폭행) 발생 수 지도 시각화
+## 데이터 소개
+![image](https://user-images.githubusercontent.com/47891430/113059338-4a4f0700-91ea-11eb-873d-11d732293dd9.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059340-4a4f0700-91ea-11eb-8f93-ce010708c231.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059343-4ae79d80-91ea-11eb-93fb-5a112b568dd0.jpg)
+
+## 데이터 분석
+![image](https://user-images.githubusercontent.com/47891430/113059345-4ae79d80-91ea-11eb-9ee8-0e5d99893bc7.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059348-4b803400-91ea-11eb-99d5-c73a0169a962.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059350-4b803400-91ea-11eb-8af5-164a07730554.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059351-4c18ca80-91ea-11eb-856b-f7d13ae72942.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059352-4c18ca80-91ea-11eb-8352-8b0c74a42228.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059302-428f6280-91ea-11eb-90e3-afc930a3276f.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059306-43c08f80-91ea-11eb-96cb-a98ea0d3ade2.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059308-44592600-91ea-11eb-8b98-9907cc79c76d.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059309-44f1bc80-91ea-11eb-80b4-881dbebf0c16.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059311-458a5300-91ea-11eb-9d14-f597d11fd004.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059312-458a5300-91ea-11eb-8f32-b2376cb2524a.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059314-4622e980-91ea-11eb-9046-7662ac77afd1.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059315-4622e980-91ea-11eb-92d2-301b37dfce4e.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059319-46bb8000-91ea-11eb-926a-9e85ba82db8d.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059321-47541680-91ea-11eb-92ae-a118369e32ed.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059323-47541680-91ea-11eb-8166-0f669696c075.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059325-47ecad00-91ea-11eb-991c-ed06edaf81b4.jpg)
+
+## 결론
+![image](https://user-images.githubusercontent.com/47891430/113059327-47ecad00-91ea-11eb-8b43-dcee34b51aa7.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059328-48854380-91ea-11eb-9ff2-ec0f0528cc2d.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059330-48854380-91ea-11eb-8119-a55ae751aac6.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059331-491dda00-91ea-11eb-96ef-363db66681c2.jpg)
+
+## 분석 프로그램 및 출처
+![image](https://user-images.githubusercontent.com/47891430/113059334-491dda00-91ea-11eb-897e-cc6801bb7fb7.jpg)
+![image](https://user-images.githubusercontent.com/47891430/113059336-49b67080-91ea-11eb-95c9-cf59f977b13d.jpg)
 
 ## 기간
 2019년 9월 3일 ~ 2019년 12월 17일
